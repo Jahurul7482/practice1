@@ -1,0 +1,251 @@
+/*===================================
+	this is simple web page template
+===================================*/
+
+/*=========================================
+We are work with honestly and sencierly
+Authority: Jahurul Islam;
+Organization: Listen coder's team;
+==========================================*/
+
+/*==============
+Css Index
+==============*/
+/*==================
+1.Common css-----------(20-63)
+2.Main page css
+	a. header css------(72-110)
+	b. banner css------(115-141)
+	c. main section css--(146-)
+	d. footer css
+3.About page css
+4.Portfolio page css
+5.Services page css
+6.Blog page css
+7.Contact page css
+====================*/
+
+/*=================
+Common css start
+==================*/
+/*==================================
+Google font setup for
+font-family: 'Lato', sans-serif;
+font-family: 'Oswald', sans-serif;
+===================================*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&family=Oswald:wght@300;400;500;600;700&display=swap');
+
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+}
+body
+{
+	background-image: linear-gradient(to top right, #eee, #ccc, #ddd, #ccc, #eee);
+}
+ul li
+{
+	list-style-type: none;
+}
+a
+{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6
+{
+	font-family: 'Oswald', sans-serif;
+}
+hr
+{
+	margin: auto;
+}
+#active
+{
+	color: lightblue;
+	border-radius: 3px;
+	background-image: linear-gradient(#1Ad9BD,#1AB79D);
+}
+/*=================
+Common css end
+==================*/
+
+/*==================
+Main page css start
+with Header css
+==================*/
+.headerbanner
+{
+	background-image: linear-gradient(#10201F,#072629,#042024);
+}
+.hcontainer, .banner
+{
+	padding: 3% 10%;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.logo
+{
+	color: #ddd;
+	text-transform: uppercase;
+}
+nav ul li
+{
+	display: inline;
+}
+.menu
+{
+	padding-top: 8px;
+	text-align: right;
+}
+.menu ul li a
+{
+	padding:7px 15px;
+	color: #1AB7BD;
+}
+.menu ul li a:visited
+{
+	color: #1AB7fD;
+}
+.menu ul li a:hover
+{
+	color: lightblue;
+	border-radius: 3px;
+	background-image: linear-gradient(#1Ad9BD,#1AB79D);
+}
+
+/*==============
+banner css
+===============*/
+.banner
+{
+	grid-template-columns: 2fr 3fr;
+	grid-gap: 2%;
+}
+.banner span
+{
+	color: #ddd;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+.banner .slow
+{
+	font-size: 30px;
+	color: #ccc;
+	text-transform: uppercase;
+}
+.banner p
+{
+	color: #10a0bF;
+	padding-bottom: 15px;
+}
+.slider img
+{
+	width: 100%;
+}
+
+/*===============
+Main section css
+================*/
+.container
+{
+	padding: 5% 10%;
+	display: grid;
+	grid-template-columns: 32% 32% 32%;
+
+	grid-gap: 2.3%;
+	box-sizing: border-box;
+}
+.grid
+{
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.over
+{
+	display: none;
+}
+.grid span, .recent span
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+.content
+{
+	padding: 10px 0;
+}
+.container img
+{
+	width: 100%;
+}
+.container .grid .icon
+{
+	width: 15%;
+}
+
+/*=================
+Footer section css
+==================*/
+footer
+{
+	background-image: linear-gradient(#10201F,#072629,#042024);
+	display: grid;
+	grid-template-columns: 55% 45%;
+	padding: 3% 10%;
+}
+footer nav ul li a:hover
+{
+	color: lightblue;
+	border-radius: 3px;
+	background-image: linear-gradient(#1Ad9BD,#1AB79D);
+}
+nav ul li a
+{
+	padding:7px 15px;
+	color: #1AB7BD;
+}
+footer p
+{
+	text-align: right;
+	color: #777;
+}
+/*====================
+Home page css end
+=====================*/
+
+/*====================
+About page css start
+====================*/
+input, label
+{
+	display: block;
+	width: 55%;
+	border-radius: 15px;
+	text-align: center;
+	margin: auto;
+	background-color: transparent;
+	padding: 1% 3%;
+}
+input:focus
+{
+	font-size: 20px;
+	width: 80%;
+}
+legend
+{
+	text-align: center;
+}
+fieldset
+{
+	background-image: linear-gradient(to bottom left, aliceblue,skyblue,deepskyblue,skyblue,aliceblue);
+	margin: 3% 10%;
+	border-color: green;
+	border-radius: 40%;
+}
+
+
+
+
+
